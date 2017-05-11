@@ -1,0 +1,30 @@
+{
+  "name": "api-blueprint-lint",
+  "version": "0.1.0",
+  "description": "Command line tool to lint api blueprint file using drafter",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahb/api-blueprint-lint.git"
+  },
+  "keywords": [
+    "api-blueprint",
+    "lint"
+  ],
+  "author": "Elijah Baley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elijahb/api-blueprint-lint/issues"
+  },
+  "homepage": "https://github.com/elijahb/api-blueprint-lint#readme",
+  "bin": {
+    "snippet": "./src/index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "drafter": "^1.2.0"
+  }
+}
