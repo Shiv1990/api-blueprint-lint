@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/elijahb/api-blueprint-lint#readme",
   "bin": {
-    "snippet": "./src/index.js"
+    "api-blueprint-lint": "./src/index.js"
   },
   "dependencies": {
     "commander": "^2.9.0",
